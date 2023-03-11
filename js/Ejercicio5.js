@@ -16,7 +16,7 @@ let i=1
 
 do{
 //Vamos a introducir un DNI.
-        let numero = parseInt(prompt("Escriba su DNI: "))
+        let numero = parseInt(prompt("Escriba su DNI: "));
 //Vamos a verificar que el número se encuentre entre 0 y 99999999.
         if(!isNaN(numero) && numero>=0 && numero<=99999999){
 //Vamos a calcular el resto dividiendo este número en 23.
