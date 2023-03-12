@@ -16,7 +16,7 @@ let i, rep
 let cantidad = parseInt(prompt("Ingrese un número: "));
 
 //Vamos a consultar si el pedido es mayor a 50.
-if(cantidad>0 && cantidad<50){
+if(cantidad>0 && cantidad<=50){
 //Mediante un for vamos a solicitar que recorre la cantidad de veces que hemos escrito.
     for(i=cantidad;i>=1;i--){
         //Mediante otro for realizamos la repetición para hacer la pirámide.
@@ -29,5 +29,5 @@ if(cantidad>0 && cantidad<50){
             }
 }
 else{
-    alert("No ingreso un número o el mismo es 50 o mayor, se recomienda ingresar un número menor a 50.")
+    alert("No ingreso un número o el mismo es 50 o mayor, se recomienda ingresar un número menor o igual a 50.")
 }
